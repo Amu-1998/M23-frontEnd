@@ -1,0 +1,90 @@
+@import url('http://fonts.googleapis.com/css?family=open+sans&display=swap');
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    background: cornsilk;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+.logo-text{
+    font-size: 4em;
+    font-weight: 700;
+    color: blueviolet;
+}
+#home{
+    background: black;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div p{
+    font-size: 2.7em;
+    font-weight: 200;
+}
+h1,h3,h4{
+    font-weight: 600;
+}
+h1{
+    font-size: 5em;
+}
+h3{
+    font-size: 3em;
+}
+h2{
+    font-weight: 800;
+    font-size: 4em;
+}
+h4{
+    font-size: 2em;
+}
+#bio{
+    display: flex;
+    align-items: center;
+}
+#bio img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 100px;
+}
+.link-button:hover{
+    color: red;
+}
+p{
+    font-size: 1.5em;
+}
+hr{
+    width: 300px;
+}
+#portfolio{
+    background: url();
+    background-color: beige;
+}
+#portfolio,#skills,#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+#portfolio div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    width: 90%;
+}
+#portfolio img{
+    width: 200px;
+    height: 200px;
+}
+#contact{
+    background-color: beige;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="forms.css">
+    <title>Web Forms</title>
+    <body>
+        <h1>T20 WorldCup Registration</h1>
+        <form>
+            <label class="ahmed" for="user-id">User ID: </label>
+            <input type="text" id="user-id" required> 
+            <br>
+            <br>
+            <label for="password">Password: </label> 
+            <input type="password" id="password" required>
+            <p>Select the Seat Type: </p>
+            <input type="radio" name="seat-type" value="Corporate-Box area" id="option-1">
+            <label for="option-1">Corporate-Box area</label>
+            <br>
+            <input type="radio" name="seat-type" value="ground area" id="option-2">
+            <label for="option-2">Groud area</label>
+            <br>
+            <input type="radio" name="seat-type" value="VIP area" id="option-3">
+            <label for="option-3">VIP area</label>
+            <br>
+            <br>
+            <label for="question">Security Question</label>
+            <select name="question" id="question">
+                <option value="q1">Which is your favorite cricketer?</option>
+                <option value="q2">Which is your favorite stadium?</option>
+            </select>
+            <br>
+            <br>
+            <label for="answer">Answer</label>
+            <input type="text" id="answer">
+            <br>
+            <br>
+            <label for="bio">Your Bio</label>
+            <br>
+            <textarea name="Bio" id="Bio" placeholder="About You......."></textarea>
+            <br>
+            <input type="Submit" value="Submit">
+        
+        </form>
+    </body>
+</head>
+</html>

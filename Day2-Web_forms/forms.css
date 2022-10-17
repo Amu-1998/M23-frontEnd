@@ -1,0 +1,17 @@
+h1::first-letter{
+    color: brown;
+    background-color: cornflowerblue;
+    border: 2px outset olive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+label.ahmed{
+    font-size: 20px;
+    text-decoration: solid;
+    color: chartreuse;
+    display: inline;
+    text-shadow: 1px 1px lawngreen;
+}
+p::first-line{
+    color: brown;
+}
